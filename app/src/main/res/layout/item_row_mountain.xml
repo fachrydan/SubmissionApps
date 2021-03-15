@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:padding="5dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/foto_gunung"
+            android:layout_width="402dp"
+            android:layout_height="141dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            tools:src="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/tv_nama_gunung"
+            android:layout_width="112dp"
+            android:layout_height="24dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="22dp"
+            android:background="#73000010"
+            android:drawablePadding="2dp"
+            android:padding="4sp"
+            tools:text="@string/nama_gunung"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/tv_lokasi_gunung"
+            android:layout_width="112dp"
+            android:layout_height="18dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="9.5dp"
+            android:background="#73000010"
+            android:gravity="center_vertical"
+            android:padding="2sp"
+            android:textSize="10sp"
+            android:fontFamily="sans-serif-condensed"
+            tools:text="@string/lokasi_gunung"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btn_lihat_detail"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="88dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/lihat_detail"
+            android:textSize="12sp" />
+
+    </FrameLayout>
+
+</RelativeLayout>

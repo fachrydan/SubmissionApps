@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SubmissionApps</string>
+    <string name="nama_gunung">Nama Gunung</string>
+    <string name="lokasi_gunung">Lokasi Gunung</string>
+    <string name="lihat_detail">Lihat Detail</string>
+    <string name="list_gunung">List Gunung</string>
+    <string name="about_developer">About Developer</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="ketinggian">Ketinggian</string>
+    <string name="desc_detail">desc_detail</string>
+    <string name="kembali_ke_daftar_gunung">KEMBALI KE DAFTAR GUNUNG</string>
+    <string name="lihat_di_google_maps">LIHAT DI GOOGLE MAPS</string>
+    <string name="deskripsi">Deskripsi</string>
+</resources>
